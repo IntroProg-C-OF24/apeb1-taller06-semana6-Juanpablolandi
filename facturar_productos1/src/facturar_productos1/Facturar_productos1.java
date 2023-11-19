@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Facturar_productos1 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner (System.in);
-        double iphone, ipad, iphoneCosto,ipadCosto, costo, iphoneCostoT, ipadCostoT, subtotal, descuento1, descuento2, envio, subtotalIva, montoFactura1, montoFactura2 ;
-        System.out.println("ENVIO: ");
+        double iphone, ipad, iphoneCosto,ipadCosto, iphoneCostoT, ipadCostoT, subtotal, descuento1, descuento2, envio, subtotalIva, montoFactura1, montoFactura2;
+        System.out.println("Ingrese el Envio que se puede adquirir: ");
         envio = teclado.nextDouble();
         System.out.println("Ingrese la cantidad de Iphones Compradas: ");
         iphone = teclado.nextDouble();
